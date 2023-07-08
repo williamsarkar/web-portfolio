@@ -175,5 +175,38 @@ main section {
     color:  #474747;
     font-size: 25px;
     font-weight: 700;
-    
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-info{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input[type="text"], input[type="email"], 
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+background: #FFF;
+border: 0px;
+width:100%;
+
 }
